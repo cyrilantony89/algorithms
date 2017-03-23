@@ -7,15 +7,15 @@ public class MergeSort {
     public static void main(String[] args) {
         Scanner s = new Scanner(MergeSort.class.getResourceAsStream("MergeSort.txt"));
         int size = s.nextInt();
-        int[] arr = new int[size];
+        int[] A = new int[size];
         for (int i = 0; i < size; i++) {
-            arr[i] = s.nextInt();
+            A[i] = s.nextInt();
         }
-        disp(arr);
+        disp(A);
         int start = 0;
-        int end = size - 1;
-        mergesort(arr, start, end);
-        disp(arr);
+        mergesort(A, start, size - 1);
+
+        disp(A);
     }
 
     private static void disp(int[] arr) {
