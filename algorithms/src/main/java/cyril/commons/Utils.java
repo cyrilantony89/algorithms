@@ -29,4 +29,14 @@ public class Utils {
 		return A;
 	}
 
+	public  static String displayArray(int[] a) {
+		StringBuilder  s = new StringBuilder();
+		for (int i = 0; i < a.length; i++) {
+			s.append(" "+a[i]);
+		}
+		String ss = s.toString();
+		System.out.println(ss);
+		return ss;
+	}
+
 }
