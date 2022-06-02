@@ -1,4 +1,4 @@
-package cyril.array;
+package cyril.skyflow;
 
 import java.util.Scanner;
 

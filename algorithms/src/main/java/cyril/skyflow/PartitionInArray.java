@@ -1,4 +1,4 @@
-package cyril.array;
+package cyril.skyflow;
 
 import cyril.commons.Utils;
 

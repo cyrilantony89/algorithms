@@ -1,7 +1,7 @@
 import java.io.FileReader;
 import java.io.LineNumberReader;
 
-public class Newfile {
+public class InfixExpressionEvaluation {
 
 	public static void main(String[] args) {
 

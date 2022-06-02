@@ -1,4 +1,4 @@
-package cyril.array;
+package cyril.skyflow;
 
 /*
  Given a  2D Array, :

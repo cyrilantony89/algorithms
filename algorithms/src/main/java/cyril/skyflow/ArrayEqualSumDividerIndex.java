@@ -1,4 +1,4 @@
-package cyril.array;
+package cyril.skyflow;
 
 public class ArrayEqualSumDividerIndex {
     public int solution(int[] A) {
